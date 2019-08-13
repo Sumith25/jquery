@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+
+$(document).ready(function(){
+    $(".Advanced").hide();
+                    $(".beginer").hide();
+});
+
+                    
+
+                $(document).ready(function(){
+
+                  $(".beginner_button").click(function(){
+                    $(".Advanced").hide();
+                    $(".beginer").show();
+
+                  });
+                });
+
+                  $(document).ready(function(){
+                  $(".Advanced_button").click(function(){
+                    $(".beginer").hide();
+                    $(".Advanced").fadeIn();
+                    $(".Advanced").show();
+                   
+
+                  });
+                });
+                </script>
+                </head>
+                
+<body>
+    
+    <h1>Quinnox Training</h1>
+    <div class="container">
+        <h3>Select The Course.</h3>
+
+    <div class="beginer">
+        <h5>The Beginner Courses are:</h5>
+    <ul>
+    <li>Core_java</li>
+    <li>Java</li>
+    </ul></div>
+
+    <div class ="Advanced">
+        <h5>The Advanced Courses Are:</h5>
+    <ul>
+    <li>Server</li>
+    <li>JSP</li>
+    </ul>
+    </div>
+
+    <button class="beginner_button">Beginner</button>
+
+    <button class="Advanced_button">Advanced</button>
+
+    </div>
+</body>
+</html>

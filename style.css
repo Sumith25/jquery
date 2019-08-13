@@ -1,0 +1,20 @@
+h1
+{
+    text-shadow: 30px;
+    text-align: center;
+}
+.container
+{
+    width: 600px;
+    height: 400px;
+    background-color: aqua;
+    margin: auto;
+    position: absolute;
+    left: 400px;
+    align-content: center;
+    size: 200px;
+
+}
+h3{
+    align-content: center;
+}
